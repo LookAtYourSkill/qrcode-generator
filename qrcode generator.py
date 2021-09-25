@@ -9,6 +9,6 @@ qr.add_data(str(input_data))
 qr.make(fit=True)
 img = qr.make_image(fill='black', back_color='white')
 name = input('Wie soll der QR Code heißen?\n')
-img.save('C:/Users/simon/Documents/QR Codes from Generator/' + str(name) + '.png')
+img.save('DEN PFAD HIER EINFÜGEN' + str(name) + '.png')
 print('QR Code Successfully created\n'
       'Du hast dich für ' + str(input_data) + ' entscheiden!')
